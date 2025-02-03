@@ -32,9 +32,9 @@ let package = Package(
             name: "Yttrium",
             dependencies: ["YttriumXCFramework"],
             path: "platforms/swift/Sources/Yttrium",
-            publicHeadersPath: ".",
+            publicHeadersPath: "./**",
             cSettings: [
-                .headerSearchPath(".")
+                .headerSearchPath("./**")
             ]
         )
     ]
